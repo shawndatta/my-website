@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Eye Gaze Tracking",
+        "blurb": "OpenCV prototype that estimates gaze vectors; logs drift and fixation heatmaps.",
+        "href": "#",
+        "tags": ["OpenCV", "Python", "Vision"],
+        "image": "/projects/eyegaze.jpg"
+    },
+    {
+        "title": "Outlier Nutrition",
+        "blurb": "Search foods, visualize nutrients, and suggest outlier-smart substitutes.",
+        "href": "#",
+        "tags": ["Next.js", "TypeScript", "Charts"],
+        "image": "/projects/outlier.jpg"
+    },
+    {
+        "title": "LLM Prompt Tools",
+        "blurb": "A/B prompt harness + evaluator for small in-house models.",
+        "href": "#",
+        "tags": ["LLM", "Eval", "Node"],
+        "image": "/projects/prompt.jpg"
+    }
+]
