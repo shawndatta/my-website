@@ -4,8 +4,15 @@ import Hero from "@/components/Hero"; // client component for the animated hero
 import BackgroundGradient from "@/components/BackgroundGradient";
 import GridBackground from "@/components/GridBackground";
 import NumbersOverlay from "@/components/NumbersOverlay";
+import ProjectHoverGrid from "@/components/ProjectHoverGrid";
+
+import projectsData from "@/data/projects.json";
+import type { Project } from "@/lib/types";
+
 
 export default function Home() {
+  const projects = projectsData as Project[];
+
   return (
     <>
       <Nav />
@@ -54,28 +61,7 @@ export default function Home() {
 
         {/* PROJECTS */}
         <Section id="projects" title="Projects">
-          <div className="grid sm:grid-cols-2 gap-4">
-            <a
-              className="rounded-lg border border-white/10 p-4 hover:bg-white/5"
-              href="#"
-              target="_blank"
-            >
-              <h4 className="font-medium text-white">Eye Gaze Tracking</h4>
-              <p className="text-sm text-zinc-400">
-                OpenCV-based prototype; tracks eye movement and logs drift.
-              </p>
-            </a>
-            <a
-              className="rounded-lg border border-white/10 p-4 hover:bg-white/5"
-              href="#"
-              target="_blank"
-            >
-              <h4 className="font-medium text-white">Outlier Nutrition App</h4>
-              <p className="text-sm text-zinc-400">
-                Search foods, plot nutrients, and suggest alternatives.
-              </p>
-            </a>
-          </div>
+          <ProjectHoverGrid items={projects} />
         </Section>
 
         {/* CONTACT */}
