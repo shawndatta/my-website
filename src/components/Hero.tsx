@@ -1,7 +1,7 @@
 'use client';
 
 import { motion, useReducedMotion } from 'framer-motion';
-import { fadeRise, staggerUp } from '@/Components/motionPresets';
+import { fadeRise, staggerUp } from '@/components/motionPresets';
 
 export default function Hero() {
   const prefersReduced = useReducedMotion();

@@ -1,10 +1,10 @@
-import Nav from "@/Components/Nav";
-import Section from "@/Components/Section";
-import Hero from "@/Components/Hero"; // client component for the animated hero
-import BackgroundGradient from "@/Components/BackgroundGradient";
-import GridBackground from "@/Components/GridBackground";
-import NumbersOverlay from "@/Components/NumbersOverlay";
-import ProjectHoverGrid from "@/Components/ProjectHoverGrid";
+import Nav from "@/components/Nav";
+import Section from "@/components/Section";
+import Hero from "@/components/Hero"; // client component for the animated hero
+import BackgroundGradient from "@/components/BackgroundGradient";
+import GridBackground from "@/components/GridBackground";
+import NumbersOverlay from "@/components/NumbersOverlay";
+import ProjectHoverGrid from "@/components/ProjectHoverGrid";
 
 import projectsData from "@/data/projects.json";
 import type { Project } from "@/lib/types";
